@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Something to change
 namespace Inclass282022
 {
     internal class VehicleFeatureEnumerator : IEnumerator<string>
