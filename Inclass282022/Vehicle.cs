@@ -8,6 +8,8 @@ namespace Inclass282022
 
         private List<string> _features = new List<string>();
 
+        public string this[int index] => _features[index];
+
         public Vehicle(int year)
         {
             this.Year = year;

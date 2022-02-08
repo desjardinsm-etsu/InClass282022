@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 //Something to change
 namespace Inclass282022
 {
-    internal class VehicleFeatureEnumerator : IEnumerator<string>
+    public class VehicleFeatureEnumerator : IEnumerator<string>
     {
         private Vehicle _vehicle;
         private int index;

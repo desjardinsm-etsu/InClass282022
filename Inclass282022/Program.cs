@@ -42,6 +42,8 @@ veh.AddFeature("Power Windows");
 veh.AddFeature("backup Camera");
 veh.AddFeature("DVD Player");
 
+Console.WriteLine(veh[0]);
+
 foreach (var item in veh)
 {
     Console.WriteLine(item);
